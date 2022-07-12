@@ -1,0 +1,17 @@
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <welcome-file-list>
+  <welcome-file>Login.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  <servlet-name>Spring</servlet-name>
+  <servlet-class>org.springframework.web.servlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Spring</servlet-name>
+  <url-pattern>/</url-pattern>
+  </servlet-mapping>
+</web-app>
